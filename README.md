@@ -4,6 +4,10 @@ Based on general code from AWTRIX
 
 Change configuration and it should be good to go
 
+Images:
+https://imgur.com/gallery/3ZA8C6C
+
+
 
 **HARDWARE**
 
@@ -11,10 +15,12 @@ Change configuration and it should be good to go
 - DHT-22 Temperature and Humidity sensor
 
 
-*WIREING*
+
+**WIREING**
 
 - DHT VCC and GROUND wired to 3.3v and Ground on ESP8266 (VCC 5v should also work)
 - DHT Datapin wired to D4 (any digital pin could be used)
+
 
 
 **CONFIG**
@@ -34,3 +40,13 @@ This is especially intended for users who do not have their own smarthome server
 Download the template firmware for an AWTRIX Node, edit the node-conf.h and modify it in doJob to send a custom text and IconID. 
 
 AWTRIX displays each node at the end of the apploop. After that, AWTRIX deletes the data. So if the node is offline or doesnt sends any data, the node is not longer displayed.
+
+
+
+**AWTRIX MORE INFORMATION**
+
+More information about awtrix
+https://blueforcer.de/awtrix-2-0/
+
+
+
