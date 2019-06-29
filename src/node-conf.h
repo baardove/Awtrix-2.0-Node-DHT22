@@ -1,8 +1,8 @@
 ///////////////////////// AWTRIXNODE CONFIG /////////////////////////
 
 // Wifi Config
-const char *ssid = "XXXX";
-const char *password = "XXXX";
+const char *ssid = "xxx";
+const char *password = "xxx";
 char *awtrix_server = "192.168.1.38";
 
 
