@@ -51,14 +51,10 @@ void fetchdata() {
 
 void doJob() {
 
-  String sname;
-  String sbuf;
-  char * cbuf;
+  String sbuf= "";
 
-  sbuf= "";
 
   fetchdata();
-
 
 
 // Temperature
@@ -104,6 +100,8 @@ void setup() {
   }
   client.setServer(awtrix_server, 7001);
   ArduinoOTA.begin();
+
+  dht.setup(sensorpin, DHTesp::DHT22); // Connect DHT sensor to GPIO D4
 
 }
 
